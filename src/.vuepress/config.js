@@ -4,10 +4,15 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Vuepress Docs Boilerplate",
+  title: "RxJs Notes",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
+  locales: {
+    "/": {
+      lang: "es-ES",
+    },
+  },
   description: description,
 
   /**
@@ -16,6 +21,13 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "https://cdn.worldvectorlogo.com/logos/rxjs-1.svg",
+      },
+    ],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
@@ -35,29 +47,30 @@ module.exports = {
     editLinks: false,
     docsDir: "",
     editLinkText: "",
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [
       {
-        text: "Guide",
-        link: "/guide/",
-      },
-      {
-        text: "Config",
-        link: "/config/",
+        text: "Inicio",
+        link: "/que-es-rxjs/",
       },
       {
         text: "VuePress",
         link: "https://v1.vuepress.vuejs.org",
       },
     ],
-    sidebar: {
-      "/guide/": [
+    /*  sidebar: {
+      "/que-es-rxjs/": [
         {
-          title: "Guide",
-          collapsable: false,
-          children: ["", "using-vue"],
+          title: "¿Qué es-- RxJs?",
+          collapsable: true,
+          children: [""],
         },
       ],
+    }, */
+    sidebar: {
+      "/que-es-rxjs/": [""],
+      "/frontend/": ["", "html", "css", "js", "nextjs"],
+      "/backend/": [""],
     },
   },
 

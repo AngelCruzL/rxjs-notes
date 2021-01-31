@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://cdn.worldvectorlogo.com/logos/rxjs-1.svg
 tagline: Apuntes RxJs
 actionText: Notas →
-actionLink: /guide/
+actionLink: /que-es-rxjs/
 features:
   - title: Feature 1 Title
     details: Feature 1 Description
