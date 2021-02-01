@@ -68,7 +68,7 @@ module.exports = {
       ],
     }, */
     sidebar: {
-      "/que-es-rxjs/": [""],
+      "/que-es-rxjs/": ["", "pilares-rxjs"],
       "/frontend/": ["", "html", "css", "js", "nextjs"],
       "/backend/": [""],
     },
