@@ -74,6 +74,7 @@ module.exports = {
         "observer-subscriber",
         "subscription-unsubscribe",
         "subject",
+        "create-observables",
       ],
       "/frontend/": ["", "html", "css", "js", "nextjs"],
       "/backend/": [""],

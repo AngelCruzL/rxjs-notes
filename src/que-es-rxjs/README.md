@@ -1,6 +1,6 @@
 # ¿Qué es RxJS?
 
-RxJS is una librería de programación reactiva cuyo fin es simplificar la composición de código asíncrono y basado en eventos a través de secuencias observables.
+[RxJS](http://reactivex.io/) es una librería de programación reactiva cuyo fin es simplificar la composición de código asíncrono y basado en eventos a través de secuencias observables.
 
 RxJS provee una estructura de datos llamada **Observable**, estructuras derivadas como **Observer**, **Scheduler**, **Subject** y **Operators** para manipular estas estructuras, inspirados en los métodos que podemos encontrar en Array.prototype.
 
