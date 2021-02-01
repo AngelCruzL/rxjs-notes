@@ -73,6 +73,7 @@ module.exports = {
         "how-rxjs-works",
         "observer-subscriber",
         "subscription-unsubscribe",
+        "subject",
       ],
       "/frontend/": ["", "html", "css", "js", "nextjs"],
       "/backend/": [""],
